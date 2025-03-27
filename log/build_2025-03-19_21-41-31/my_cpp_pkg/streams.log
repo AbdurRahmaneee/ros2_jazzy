@@ -1,0 +1,25 @@
+[0.015s] Invoking command in '/home/abdur-rahman/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdur-rahman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdur-rahman/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[0.083s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.390s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.471s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.496s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.527s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.556s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.660s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.664s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.755s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.847s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.041s] -- Configuring done (1.0s)
+[1.071s] -- Generating done (0.0s)
+[1.083s] -- Build files have been written to: /home/abdur-rahman/ros2_ws/build/my_cpp_pkg
+[1.147s] [ 16%] [32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o[0m
+[1.156s] [ 66%] Built target robot_news_station
+[1.156s] [ 83%] Built target cpp_node
+[3.410s] [01m[K/home/abdur-rahman/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:[m[K In constructor ‘[01m[KSmartphoneNode::[01;32m[KSmartphoneNode[m[K()[m[K’:
+[3.410s] [01m[K/home/abdur-rahman/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:14:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[3.411s]    14 |     [01;31m[K}[m[K
+[3.411s]       |     [01;31m[K^[m[K
+[5.468s] gmake[2]: *** [CMakeFiles/smartphone.dir/build.make:76: CMakeFiles/smartphone.dir/src/smartphone.cpp.o] Error 1
+[5.468s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/smartphone.dir/all] Error 2
+[5.468s] gmake: *** [Makefile:146: all] Error 2
+[5.470s] Invoked command in '/home/abdur-rahman/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdur-rahman/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdur-rahman/ros2_ws/build/my_cpp_pkg -- -j8 -l8
